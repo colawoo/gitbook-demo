@@ -1,0 +1,30 @@
+{
+	"title": "Java Q&A",
+	"author": "colawoo",
+	"description": "Java相关技术问答",
+	"language": "zh-hans",
+	"styles": {
+		"website": "styles/website.css",
+		"ebook": "styles/ebook.css",
+		"pdf": "styles/pdf.css",
+		"mobi": "styles/mobi.css",
+		"epub": "styles/epub.css"
+	},
+	"plugins": [
+		"-sharing",
+		"tbfed-pagefooter",
+		"splitter",
+		"back-to-top-button",
+		"github"
+	],
+	"pluginsConfig": {
+		"tbfed-pagefooter": {
+			"copyright":"Copyright",
+			"modify_label": "该文件修订时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"github": {
+            "url": "https://github.com/colawoo"
+        }
+	}
+}
